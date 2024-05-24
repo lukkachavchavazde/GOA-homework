@@ -10,7 +10,7 @@ surname = "chavchavadze"
 #პრინტ ფუნქციას გადაეცემა ეკრანზე გამოსატანი ობიექტი
 
 name = "luka" #ეს არის str (string) ტიპის ცვლადი
-age = 12 # ეს არის int (integer) მთელი რიცხვი
+age = 14 # ეს არის int (integer) მთელი რიცხვი
 height = 1.70 #ეს არის float ტიპის ცვლადი (ათწილადი)
 #boolean (bool) ტიპის ცვლადი
 
