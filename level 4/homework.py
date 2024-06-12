@@ -194,6 +194,7 @@ forward(880)
 pendown()
 
 color("black")
+
 begin_fill()
 
 forward(50)

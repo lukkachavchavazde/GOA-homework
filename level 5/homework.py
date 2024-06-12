@@ -36,6 +36,6 @@ print(name + " " + str(age) + " " + destination + " " + str(budget))
 
 name = "მე მქვია ლუკა"
 age = 14
-destination = "წლის და ვარ მოცეკვავე"
+about_me = "წლის და ვარ მოცეკვავე"
 place = "მცხეთა"
-print(name + " " + str(age) + " " + destination + " " + place)
+print(name + " " + str(age) + " " + about_me + " " + place)
