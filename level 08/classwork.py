@@ -1,12 +1,9 @@
- #string ,integer,float ,boolean
-fruit = "apple"
-balance = 4030
-height = 3.44
-is_programer = True
+
+print(11<5)  #false
+print(4==2)   #false
+print (11>1)   #true
 
 
-# print (type(fruit))
-# print (type(balance))
-# print (type(height))
-# print (type(is_programer))
-number = 7   
+
+print (11<5) and (11>1)  #false
+print (1<5) and (31>2)   #true
