@@ -18,16 +18,11 @@
  
 #task 14
 
-our_guess = 3
-guess =int(input())
+# our_guess = 3
+# guess =int(input())
 
-while guess == 3:
-    print("you are right")
-    break
-else:
-    print("you are wrong")
-
-
+# while guess == 3:
+#     print("congrats you guessd the number")
 
 
 

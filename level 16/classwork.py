@@ -32,5 +32,20 @@ for l in  str1:
 
 
 
+sentence = "i love programing so much"
+   
+
+i = sentence.split()[0]   
+love = sentence.split()[1] 
+programing = sentence.split()[2] 
+so = sentence.split()[3] 
+much = sentence.split()[4] 
 
 
+
+
+print(i)
+print(love)
+print(programing)
+print(so)
+print(much)
