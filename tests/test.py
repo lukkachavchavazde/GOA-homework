@@ -1,3 +1,7 @@
-birthday_date = (1981, "May", 12)
-birthday_date[0] = 1982
-print(birthday_date)
+def function(luka):
+    lst=[2121]
+    if lst in luka == str:
+        return False
+    else:
+        if lst in luka == int:
+            return True
