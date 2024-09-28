@@ -1,4 +1,3 @@
-# Creating a dictionary with lists as values
 dictionary = {
     'fruits': ['apple', 'banana', 'cherry'],
     'animals': ['dog', 'cat', 'elephant'],

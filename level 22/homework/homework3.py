@@ -7,6 +7,6 @@ def manual_sum(lst):
     return total
 
 
-print(manual_sum([1, 2, 3, 4, 5])) 
-print(manual_sum([-1, -2, -3, 4, 5]))  
-print(manual_sum([0, 0, 0, 0]))  
+print(manual_sum([212, 55, 234, 99, 676])) 
+print(manual_sum([221, -222, 323, 22, -233]))  
+ 

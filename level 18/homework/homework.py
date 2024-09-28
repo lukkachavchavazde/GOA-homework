@@ -11,6 +11,3 @@ print(function())
 def luka():
     return "hello luka"
 luka()
-
-
-

@@ -7,5 +7,5 @@ def manual_min(lst):
 
     return min_value
 
-print(manual_min([3, 1, 4, 1, 5, 9, 2])) 
-print(manual_min([-10, 2, 3, 0, -5]))    
+print(manual_min([1223, 555, 2345, 4545, -35353, 73, 23])) 
+print(manual_min([343453, 383, -233, -2323, 2425]))    

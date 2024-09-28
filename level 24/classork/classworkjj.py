@@ -1,4 +1,4 @@
-def arithmetic_mean(numbers):
+def aritmetikuli(numbers):
     if not numbers:  
         
         raise ValueError("The list is empty. Cannot compute the mean.")
@@ -6,5 +6,5 @@ def arithmetic_mean(numbers):
 
 
 
-result = arithmetic_mean([1, 2, 3, 4, 5])
+result = aritmetikuli([32, 22, 312, 4122, 333])
 print(result)  

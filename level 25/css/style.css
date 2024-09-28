@@ -1,0 +1,20 @@
+input[type=submit]{
+    background-color: forestgreen;
+border-radius: 100px;
+padding: 8px  90px;
+}
+h1{
+    text-align: center;
+}
+input[type=text]{
+    padding: 2%;
+    border-radius: 100px;
+}
+input[type=number]{
+    padding: 2%;
+    border-radius: 100px
+}
+select{
+    padding: 2%;
+    border-radius: 100px;
+}

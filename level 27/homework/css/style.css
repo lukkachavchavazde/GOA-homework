@@ -1,0 +1,25 @@
+p1{
+    text-decoration: line-through dashed;
+    
+}
+p2{
+    text-decoration: overline dotted;
+}
+
+
+p3{
+    text-decoration: line-through  double;
+}
+
+p4{
+    text-decoration: underline  double;
+}
+
+
+p5{
+    text-decoration: overline wavy blue;
+}
+
+p6{
+    text-decoration: line-through double green;
+}
