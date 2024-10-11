@@ -1,1 +1,44 @@
-<h1>have not done it yet</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        /* Flex container setup */
+        .container {
+            display: flex; /* Enables flexbox layout */
+            flex-direction: row; /* Change to column to see effect */
+            flex-wrap: wrap; /* Change to nowrap or wrap-reverse to see effect */
+            justify-content: space-between; /* Change to other values to see effect */
+            align-items: center; /* Change to flex-start, flex-end, . to see effect */
+            height: 200px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+
+        /* Flex items */
+        .item {
+            width: 100px;
+            height: 100px;
+            background-color: #4caf50;
+            margin: 5px;
+            display: flex; /* Enables flex layout for items */
+            justify-content: center; /* Centers content horizontally */
+            align-items: center; /* Centers content vertically */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+
+</body>
+</html>

@@ -1,1 +1,28 @@
-35
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position Examples</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+        .static { background: lightblue; height: 100px; }
+        .absolute { position: absolute; background: coral; height: 100px; top: 20px; left: 20px; }
+        .relative { position: relative; background: lightgreen; height: 100px; top: 20px; }
+        .fixed { position: fixed; background: lightcoral; height: 100px; top: 20px; right: 20px; }
+        .sticky { position: sticky; top: 0; background: lightyellow; height: 100px; }
+    </style>
+</head>
+<body>
+
+    <div class="static">Static</div>
+    <div class="absolute">Absolute</div>
+    <div class="relative">Relative</div>
+    <div class="fixed">Fixed</div>
+    <div class="sticky">Sticky</div>
+    <div style="height: 1000px;"></div>
+
+</body>
+</html>

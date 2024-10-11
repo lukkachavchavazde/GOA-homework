@@ -1,1 +1,44 @@
-37
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>grid</title>
+    <style>
+        body {
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: auto auto; 
+            gap: 10px;
+        }
+        .long-block {
+            grid-column: span 2;
+            background-color: #333;
+            height: 100px;
+        }
+        .large-block {
+            background-color: #777;
+            height: 200px;
+        }
+        .small-block {
+            background-color: #aaa;
+            height: 100px;
+        }
+        .small-block-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="long-block"></div>
+    <div class="large-block"></div>
+    <div class="small-block-container">
+        <div class="small-block"></div>
+        <div class="small-block"></div>
+    </div>
+
+</body>
+</html>
