@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 State Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            animation: stateChange 2s infinite;
+        }
+
+        @keyframes stateChange {
+            0% {
+                transform: scale(1);
+                background-color: red;
+            }
+            25% {
+                transform: scale(1.5);
+                background-color: orange;
+            }
+            50% {
+                transform: scale(2);
+                background-color: yellow;
+            }
+            75% {
+                transform: scale(1.5);
+                background-color: green;
+            }
+            100% {
+                transform: scale(1);
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

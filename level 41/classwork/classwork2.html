@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>წარმოუდგენელი ანიმაცია</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 0;
+            position: absolute;
+            animation: transform 2s forwards;
+        }
+
+        @keyframes transform {
+            0% {
+                background-color: red;
+                transform: scale(1) rotate(0deg);
+                border-radius: 0;
+            }
+            100% {
+                background-color: blue;
+                transform: scale(2) rotate(90deg);
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
