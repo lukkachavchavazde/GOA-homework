@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family:Figtree;
+}
+main{
+    border:solid 1px ;
+    box-shadow: 10px 10px;
+    width:50vh;
+    height:66vh ;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 7%;
+    border-radius: 20px;
+}
+
+
+.upperimg{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 18px;
+    border-radius: 5%;
+}
+
+
+.learning{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 6px  12px;
+    border-radius: 5px;
+    font-weight:  800;
+    background-color:hsl(47, 88%, 63%); ;
+    border: none;
+}
+
+
+
+.txt{
+    margin-left: 20px;
+    margin-top: 15px;
+   font-size: small;
+   font-weight: 600;
+}
+
+
+h2{
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 18px;
+    font-weight: 900;
+}
+
+h2:hover{
+    color:hsl(47, 88%, 63%) ;
+}
+
+
+
+
+p{
+margin-top: 15px;
+margin-left: 20px;
+opacity: 0.5;
+font-size:15px ;
+}
+
+.lower{
+    width: 40px;
+    margin-top: 15px;
+    margin-left: 20px;
+   
+}
+
+.greg{
+    display: flex;
+    align-items: center;
+}
+
+
+.text{
+font-weight: 900;
+opacity:100;
+}
+
+
+
+
+
+
+
+
+
+

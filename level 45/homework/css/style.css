@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+main{
+    
+
+        background-color: hsl(0, 0%, 100%) ;
+        width: 35%;
+        height: 200vh;
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 15px;
+        
+}
+body{
+    background-color: hsl(35, 86%, 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    width: 530px;
+    height: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+main h1{
+    text-align: left;
+    margin-left: 30px;
+}
+main ul{
+    margin-left : 25px;
+    text-align: left;
+    color: blueviolet;
+}
+main ul1{
+    padding-left: 10px;
+    text-align: left;
+    color: brown;
+    
+}
+main ul1{
+    text-align: left;
+     margin-left: 76%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    
+    
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+    
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+h2{
+    text-align: left;
+    margin-left: 10px;
+    color: brown;
+}
+h3{
+    font-weight: 100;
+    color: gray;
+    text-align:left;
+    margin-left: 10px;
+}
+
+main .displayflex{
+    display: flex;
+    
+    
+}
