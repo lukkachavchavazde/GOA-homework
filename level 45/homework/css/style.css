@@ -1,86 +1,124 @@
 *{
-    padding: 0px;
-    margin: 0px;
-
+    margin: 0;
+    padding: 0;
 }
-main{
-    
 
-        background-color: hsl(0, 0%, 100%) ;
-        width: 35%;
-        height: 200vh;
-        margin-top: 100px;
-        text-align: center;
-        border-radius: 15px;
-        
-}
+
 body{
-    background-color: hsl(35, 86%, 91%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   background-color: hsl(30, 54%, 90%); 
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
-main img{
-    width: 530px;
-    height: 300px;
-    margin-top: 30px;
+
+main{
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: hsl(0, 0%, 100%) ;
+    width: 65vh;
+    height: 190vh;
+}
+
+
+.omleti{
+    width: 450px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 23px;
+}
+
+
+.uppertxt{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 23px;
+    font-weight: bold;
+
+}
+
+
+.parent{
+    margin-left: 30px;
+    background-color: hsl(330, 100%, 98%);
+    width: 400px;
+    height: 110px;
     border-radius: 10px;
 }
-main h1{
-    text-align: left;
-    margin-left: 30px;
+
+.child{
+    margin-left: 50px;
+    line-height: 32px;
+    color:hsl(332, 51%, 32%) ;
 }
-main ul{
-    margin-left : 25px;
-    text-align: left;
-    color: blueviolet;
+
+
+.time{
+    margin-left:32px ;
+    color:hsl(332, 51%, 32%) ;
 }
-main ul1{
-    padding-left: 10px;
-    text-align: left;
-    color: brown;
-    
+
+
+.li{
+    font-weight: 900;
 }
-main ul1{
-    text-align: left;
-     margin-left: 76%;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
+
+
+.li1{
+    margin-left: 50px;
+    font-size: 13px;
+    line-height: 30px;
     
 }
 
-th, td {
-    
-    
-    padding: 8px;
-    text-align: left;
+
+.ing{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+    color: hsl(30, 84%, 64%) ;
 }
 
-tr:nth-child(even) {
-    background-color: white;
+
+.line{
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+
+
+
+.parent3{
+  margin-left: 23px;
+   font-weight: bold;
+}
+ 
+.parent5{
     
-}
-
-tr:nth-child(odd) {
-    background-color: white;
-}
-h2{
-    text-align: left;
-    margin-left: 10px;
-    color: brown;
-}
-h3{
-    font-weight: 100;
-    color: gray;
-    text-align:left;
-    margin-left: 10px;
-}
-
-main .displayflex{
     display: flex;
-    
-    
+    justify-content: space-between ;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+
+.nutr{
+    font-size: larger;
+    font-weight: 900;
+    color: orange;
+    margin-bottom: 20px;
+    margin-left: 23px;
+}
+
+
+.the{
+    opacity: 0.5;
+    margin-left: 23px;
 }
