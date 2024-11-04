@@ -1,0 +1,87 @@
+  
+  Reliable, efficient delivery
+  1Powered by Technology
+
+  Our Artificial Intelligence powered tools use millions of project data points 
+  to ensure that your project is successful
+
+  Supervisor
+  Monitors activity to identify project roadblocks
+
+  Team Builder
+  Scans our talent network to create the optimal team for your project
+
+  Karma
+  Regularly evaluates our talent to ensure quality
+
+  Calculator
+  Uses data from past projects to provide better delivery estimates
+
+
+
+
+
+  <div class="cube1">
+<div class="cubetxt">  Team Builder</div>
+<div class="meoretxt">Scans our talent network to create the
+  optimal team for your project</div>
+<img src="/level 49/classwork/images/icon-team-builder.svg"    class="builder" alt="logo">
+  </div>
+
+
+
+  
+
+<div class="cube3"> 
+  <div class="cubetxt">Karma </div>
+  <div class="meoretxt">Regularly evaluates our talent to ensure <br>
+    quality
+  </div>
+ <img src="/level 49/classwork/images/icon-karma.svg" class="builder" alt="logo">
+ </div>
+
+
+
+
+
+</div>
+
+  <div class="parent1">
+    
+ <div class="cube2"> 
+ <div class="cubetxt"> Supervisor</div>
+ <div class="meoretxt">Monitors activity to identify project roadblocks</div>
+<img src="/level 49/classwork/images/icon-supervisor.svg" class="builder" alt="logo">
+</div>
+
+
+
+
+
+  <div class="cube4"> 
+    <div class="cubetxt"> Calculator</div>
+    <div class="meoretxt">Uses data from past projects to provide better delivery estimates</div>
+   <img src="/level 49/classwork/images/icon-calculator.svg" class="builder" alt="logo">
+   </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

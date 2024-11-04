@@ -1,0 +1,81 @@
+
+  Social Media 10x Faster with AI
+  Over 4,000 5-star reviews
+
+  Manage multiple accounts and platforms.
+
+  Maintain a consistent posting schedule.
+
+  Schedule to social media.
+  Optimize post timings to publish content at the perfect time for your audience.
+  
+  Grow followers with non-stop content.
+
+  >56% faster audience growth
+  
+  Create and schedule content quicker.
+
+  Write your content using AI.
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:DM Sans ;
+}
+
+
+.parent{
+     display: flex;
+     
+}
+
+
+.cube1{
+    background-color:hsl(31, 66%, 93%) ;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+
+.cube2{
+    background-color:rgba(118,81,220,255);
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 320px;
+    width: 532px;
+    border-radius: 10px;
+}
+
+
+.cube3{
+    background-color:hsl(31, 66%, 93%) ;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 600px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+   <div class="parent">
+      <div class="cube1"></div>
+      <div class="cube2"></div>
+      <div class="cube3"></div>
+     </div>      
+      <div class="cube4"></div>
+      <div class="cube5"></div>
+      <div class="cube6"></div>
+      <div class="cube7"></div>
+      <div class="cube8"></div>

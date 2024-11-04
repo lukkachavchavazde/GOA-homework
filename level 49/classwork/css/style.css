@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Poppins ;
+
+}
+
+
+.parent{
+    text-align: center;
+}
+
+.uppertxt{
+    margin-top: 50px;
+     font-weight: 200;
+     opacity: 0.5;
+}
+
+
+.bitlower{
+    
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+
+.lower{
+    margin-top: 20px;
+    opacity: 0.4;
+    font-size: 14px;
+}
+
+
+.cube1{      
+      width: 300px;
+      height: 200px;
+      margin-left: 620px;
+      margin-top: 50px;
+      box-shadow:0px 0px 10px gray;
+      border-top-style:solid ;
+      border-top-color:red;
+      border-radius: 5px;
+      
+}
+
+
+
+.cubetxt{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%) ;
+}
+
+
+.meoretxt{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%) ;
+    font-size:13px ;
+    opacity: 0.5;
+}
+
+
+
+.builder{
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+
+.cube2{
+    width: 300px;
+    height: 200px;
+    margin-left: 300px;
+    box-shadow:0px 0px 10px gray;
+    border-top-style:solid ;
+    border-top-color:aqua;
+    border-radius: 5px;
+    
+}
+
+
+
+.cube3{
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+    box-shadow:0px 0px 10px gray;
+    border-top-style:solid ;
+    border-top-color:rgb(251, 255, 0);
+    border-radius: 5px;
+}
+
+
+.cube4{
+    margin-left: 345px;
+    width: 300px;
+    height: 200px;
+    box-shadow:0px 0px 10px gray;
+    border-top-style:solid ;
+    border-top-color:rgb(38, 0, 255);
+    border-radius: 5px;
+}
+
+.parent1{
+    display: flex;
+    
+}
