@@ -17,6 +17,7 @@
 
 let x = 10;    // x is a number
 x = "Helloworld";   // now we change it to  a string
+console.log(x)
 
 
 //  Unlike C which is a statically typed language where variable types are fixed JavaScript 
@@ -39,5 +40,17 @@ x = "Helloworld";   // now we change it to  a string
 let num = 10;
 num = 6;
 
+console.log(num)
+
 
 // the camel cais is coled becouse it has capitalized letters and has bumps like 
+
+
+
+
+
+
+
+
+
+
