@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>რეგისტრაციის ფორმა</title>
+</head>
+<body>
+
+    <h2>რეგისტრაციის ფორმა</h2>
+
+    <form id="registrationForm">
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">ემაილი:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" required><br><br>
+
+        <label>გენდერი:</label>
+        <input type="radio" id="male" name="gender" value="მამაკაცი"> მამაკაცი
+        <input type="radio" id="female" name="gender" value="ქალი"> ქალი<br><br>
+
+        <input type="checkbox" id="terms"> ვეთანხმები წესებს<br><br>
+
+        <button type="submit">რეგისტრაცია</button>
+    </form>
+
+    
+    <script src="./script.js"></script>
+
+</body>
+</html>
