@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E9F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-section {
+    padding: 32px;
+    width: 50%;
+}
+
+.form-section h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.form-section a {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+    float: right;
+}
+
+.form-section a:hover {
+    text-decoration: underline;
+}
+
+.form-section label {
+    display: block;
+    margin: 16px 0 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-section input[type="text"],
+.form-section input[type="number"] {
+    width: calc(50% - 8px);
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 8px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-section input[type="radio"] {
+    margin-right: 8px;
+}
+
+.form-section .radio-group {
+    margin: 16px 0;
+}
+
+.form-section button {
+    background-color: #DFFF00;
+    color: #333;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.form-section button:hover {
+    background-color: #C7E600;
+}
+
+.result-section {
+    width: 50%;
+    background-color: #03203C;
+    color: white;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.result-section img {
+    width: 80px;
+    margin-bottom: 16px;
+}
+
+.result-section h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.result-section p {
+    font-size: 14px;
+    color: #B0D4FF;
+}
