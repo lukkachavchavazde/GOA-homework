@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('registrationForm');
 
     form.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault();
 
         let isValid = true;
         const inputs = form.querySelectorAll('input, select');
