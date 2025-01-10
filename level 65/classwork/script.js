@@ -1,25 +1,16 @@
 // // 1
 // let myArray = [10, 20, 30, 40, 50];
 // let fruits = ["apple", "banana", "cherry"];
-// // let mixedArray = [1, "hello", true, [2, 3], { name: "John" }];
+// let mixedArray = [1, "hello", true, [2, 3], { name: "John" }];
 
 
-// 2
-let myArr = new Array(10, 20, 30, 40, 50);
-let fruit = new Array("apple", "banana", "cherry");
-let mixedArr = new Array(1, "hello", true, [2, 3], { name: "John" });
+// //  2
+// let myArr = new Array(10, 20, 30, 40, 50);
+// let fruit = new Array("apple", "banana", "cherry");
+// let mixedArr = new Array(1, "hello", true, [2, 3], { name: "John" });
 
-// 3
-let Array = new Array(5);
-
-
-myArray[0] = 10;
-myArray[1] = 20;
-myArray[2] = 30;
-myArray[3] = 40;
-myArray[4] = 50;
-
-console.log(myArray);
+//  3
+//
 
 // 4
 let myArray = [10, 20, 30, 40, 50];
